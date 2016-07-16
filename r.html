@@ -34,106 +34,107 @@
         <div class="row">
             <div class="col-md-6">
                 <h1>Week 1</h1>
-                <table class="table">
-                    <div class="container">
-                        <p>
-                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#wk1" aria-expanded="false" aria-controls="wk1">
-                            Week 1
-                            </button>
-                        </p>
-                        <div class="collapse" id="wk1">
-                            <div class="well">
-                                <table>
-                                  <thead class="thead-inverse">
+                <div id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#wk1" aria-expanded="true" aria-controls="wk1">
+                                Week 1
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="wk1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <table class="table">
+                                <thead class="thead-inverse">
                                     <tr>
-                                    <th>Away Team</th>
-                                    <th>Win Probability</th>
-                                    <th>Home Team</th>
+                                        <th>Away Team</th>
+                                        <th>Win Probability</th>
+                                        <th>Home Team</th>
                                     </tr>
-                                  </thead>
-                                  <tbody>
+                                </thead>
+                                <tbody>
                                     <tr>
-                                      <td>HAM✓</td>
-                                      <td>62%</td>
-                                      <td>TOR</td>
-                                    </tr>
-                                    <tr>
-                                      <td>MTL✓</td>
-                                      <td>59%</td>
-                                      <td>WPG</td>
+                                        <td>HAM✓</td>
+                                        <td>62%</td>
+                                        <td>TOR</td>
                                     </tr>
                                     <tr>
-                                      <td>OTT✓</td>
-                                      <td>40%</td>
-                                      <td>EDM</td>
+                                        <td>MTL✓</td>
+                                        <td>59%</td>
+                                        <td>WPG</td>
                                     </tr>
                                     <tr>
-                                      <td>CGY</td>
-                                      <td>71%</td>
-                                      <td>BC✓</td>
+                                        <td>OTT✓</td>
+                                        <td>40%</td>
+                                        <td>EDM</td>
                                     </tr>
-                                  </tbody>
-                                </table>
+                                    <tr>
+                                        <td>CGY</td>
+                                        <td>71%</td>
+                                        <td>BC✓</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                                 <table class="table">
-                                  <thead class="thead-inverse">
-                                    <tr>
-                                      <th>Team</th>
-                                      <th>Rating</th>
-                                      <th>Record</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td>CGY</td>
-                                      <td>1742</td>
-                                      <td>0-1</td>
-                                    </tr>
-                                    <tr>
-                                      <td>EDM</td>
-                                      <td>1729</td>
-                                      <td>0-1</td>
-                                    </tr>
-                                    <tr>
-                                      <td>HAM</td>
-                                      <td>1674</td>
-                                      <td>1-0</td>
-                                    </tr>
-                                    <tr>
-                                      <td>OTT</td>
-                                      <td>1610</td>
-                                      <td>1-0</td>
-                                    </tr>
-                                    <tr>
-                                      <td>TOR</td>
-                                      <td>1451</td>
-                                      <td>0-1</td>
-                                    </tr>
-                                    <tr>
-                                      <td>BC</td>
-                                      <td>1421</td>
-                                      <td>1-0</td>
-                                    </tr>
-                                    <tr>
-                                      <td>MTL</td>
-                                      <td>1417</td>
-                                      <td>1-0</td>
-                                    </tr>
-                                    <tr>
-                                      <td>WPG</td>
-                                      <td>1239</td>
-                                      <td>0-1</td>
-                                    </tr>
-                                    <tr>
-                                      <td>SSK</td>
-                                      <td>1217</td>
-                                      <td>0-0</td>
-                                    </tr>
+                                    <thead class="thead-inverse">
+                                        <tr>
+                                            <th>Team</th>
+                                            <th>Rating</th>
+                                            <th>Record</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>CGY</td>
+                                            <td>1742</td>
+                                            <td>0-1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>EDM</td>
+                                            <td>1729</td>
+                                            <td>0-1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>HAM</td>
+                                            <td>1674</td>
+                                            <td>1-0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>OTT</td>
+                                            <td>1610</td>
+                                            <td>1-0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>TOR</td>
+                                            <td>1451</td>
+                                            <td>0-1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>BC</td>
+                                            <td>1421</td>
+                                            <td>1-0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>MTL</td>
+                                            <td>1417</td>
+                                            <td>1-0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>WPG</td>
+                                            <td>1239</td>
+                                            <td>0-1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SSK</td>
+                                            <td>1217</td>
+                                            <td>0-0</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
-                  
+                </div>  
             </div>
             <div class="col-md-4">
                 <h1>Week 2</h1>
